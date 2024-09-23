@@ -35,15 +35,17 @@ case 1: Directly run  Flask API
         
 case 2: Using Docker and Streamlit
 
-        Run Dockerfile and get the url
+        Run the Dockerfile, and you will get both the Flask development server and the Streamlit app in your browser.
         
-        Copy paste the url in browser, streamlit view appear there you can input the paragraph or documents.
-
+        By accessing the Streamlit URL, a view will appear where you can input a paragraph or documents directly.
+        
+        Alternatively, use the Flask development server with Postman or another tool to send requests
+        
 
 
 Sample API requests:
 
-url = 'http://0.0.0.0:5000/summarize'
+url = 'http://localhost:5000/summarize'
 
 request type = 'post'
 
