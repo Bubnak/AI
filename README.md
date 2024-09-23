@@ -5,6 +5,9 @@ Model : google/pegasus-cnn_dailymail
 Dataset(samsum) : https://huggingface.co/datasets/Samsung/samsum
 
 
+Important Note: Due to Big file size the fine tuned pretrained model is not added in the gitHub.
+
+
 Overview of the model training process:
 
     Load the pre-trained model
